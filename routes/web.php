@@ -34,3 +34,5 @@ Route::post('/todo', function (Request $request) {
     $newTodo->save();
     return redirect()->route('todo.index');
 })->name('todo.store');
+
+//第一個程式
